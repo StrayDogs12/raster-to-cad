@@ -1,0 +1,213 @@
+{
+  "source_directory": "input_layers",
+  "mask_directory": "output_masks",
+  "config": {
+    "min_foreground_percent": 0.01,
+    "max_foreground_percent": 45.0,
+    "max_small_component_ratio": 0.995,
+    "source_support_threshold": 20,
+    "min_source_support_ratio": 0.8,
+    "max_border_contact_ratio": 0.5,
+    "small_component_area": 3
+  },
+  "total_masks": 5,
+  "validated": 5,
+  "pass": 5,
+  "review": 0,
+  "fail": 0,
+  "missing_sources": [],
+  "overall_status": "PASS",
+  "results": [
+    {
+      "source": "input_layers\\Mask Layer Hijau - Dimensi, Elevasi & Garis Penunjuk (0,18 mm).jpg",
+      "mask": "output_masks\\Mask Layer Hijau - Dimensi, Elevasi & Garis Penunjuk (0,18 mm)_clean.png",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "dimensions": {
+        "width": 2048,
+        "height": 1143,
+        "matches_source": true
+      },
+      "binary_values": [
+        0,
+        255
+      ],
+      "is_binary": true,
+      "foreground_pixels": 64541,
+      "foreground_percent": 2.75714,
+      "connected_components": 280,
+      "small_components_count": 0,
+      "small_components_ratio": 0.0,
+      "largest_component_pixels": 2890,
+      "largest_component_ratio": 0.04478,
+      "border_foreground_pixels": 0,
+      "border_contact_ratio": 0.0,
+      "source_support_ratio": 0.91371,
+      "foreground_bbox": {
+        "x_min": 67,
+        "y_min": 82,
+        "x_max": 2020,
+        "y_max": 1111,
+        "width": 1954,
+        "height": 1030
+      },
+      "skeleton_pixels": 27676,
+      "skeleton_endpoints": 2397,
+      "skeleton_junction_pixels": 16912
+    },
+    {
+      "source": "input_layers\\Mask Layer Kuning - Elemen Sekunder & Kereta (0,30 - 0,35 mm).jpg",
+      "mask": "output_masks\\Mask Layer Kuning - Elemen Sekunder & Kereta (0,30 - 0,35 mm)_clean.png",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "dimensions": {
+        "width": 2048,
+        "height": 1143,
+        "matches_source": true
+      },
+      "binary_values": [
+        0,
+        255
+      ],
+      "is_binary": true,
+      "foreground_pixels": 212616,
+      "foreground_percent": 9.0828,
+      "connected_components": 278,
+      "small_components_count": 4,
+      "small_components_ratio": 0.01439,
+      "largest_component_pixels": 91510,
+      "largest_component_ratio": 0.4304,
+      "border_foreground_pixels": 0,
+      "border_contact_ratio": 0.0,
+      "source_support_ratio": 0.9478,
+      "foreground_bbox": {
+        "x_min": 121,
+        "y_min": 110,
+        "x_max": 2021,
+        "y_max": 1068,
+        "width": 1901,
+        "height": 959
+      },
+      "skeleton_pixels": 64877,
+      "skeleton_endpoints": 4545,
+      "skeleton_junction_pixels": 37190
+    },
+    {
+      "source": "input_layers\\Mask Layer Magenta - Arsiran Potongan Tanah (0,10 mm).jpg",
+      "mask": "output_masks\\Mask Layer Magenta - Arsiran Potongan Tanah (0,10 mm)_clean.png",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "dimensions": {
+        "width": 2048,
+        "height": 1143,
+        "matches_source": true
+      },
+      "binary_values": [
+        0,
+        255
+      ],
+      "is_binary": true,
+      "foreground_pixels": 21066,
+      "foreground_percent": 0.89992,
+      "connected_components": 130,
+      "small_components_count": 2,
+      "small_components_ratio": 0.01538,
+      "largest_component_pixels": 4738,
+      "largest_component_ratio": 0.22491,
+      "border_foreground_pixels": 0,
+      "border_contact_ratio": 0.0,
+      "source_support_ratio": 0.99459,
+      "foreground_bbox": {
+        "x_min": 68,
+        "y_min": 887,
+        "x_max": 1942,
+        "y_max": 1058,
+        "width": 1875,
+        "height": 172
+      },
+      "skeleton_pixels": 9021,
+      "skeleton_endpoints": 586,
+      "skeleton_junction_pixels": 4476
+    },
+    {
+      "source": "input_layers\\Mask Layer Merah - Garis Sumbu & Grid A-N (0,13 mm).jpg",
+      "mask": "output_masks\\Mask Layer Merah - Garis Sumbu & Grid A-N (0,13 mm)_clean.png",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "dimensions": {
+        "width": 2048,
+        "height": 1143,
+        "matches_source": true
+      },
+      "binary_values": [
+        0,
+        255
+      ],
+      "is_binary": true,
+      "foreground_pixels": 26180,
+      "foreground_percent": 1.11839,
+      "connected_components": 222,
+      "small_components_count": 0,
+      "small_components_ratio": 0.0,
+      "largest_component_pixels": 8947,
+      "largest_component_ratio": 0.34175,
+      "border_foreground_pixels": 0,
+      "border_contact_ratio": 0.0,
+      "source_support_ratio": 0.97876,
+      "foreground_bbox": {
+        "x_min": 107,
+        "y_min": 29,
+        "x_max": 2008,
+        "y_max": 1042,
+        "width": 1902,
+        "height": 1014
+      },
+      "skeleton_pixels": 12591,
+      "skeleton_endpoints": 625,
+      "skeleton_junction_pixels": 7337
+    },
+    {
+      "source": "input_layers\\Mask Layer Putih & Cyan - Struktur Utama (0,50 - 0,70 mm).jpg",
+      "mask": "output_masks\\Mask Layer Putih & Cyan - Struktur Utama (0,50 - 0,70 mm)_clean.png",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "dimensions": {
+        "width": 2048,
+        "height": 1143,
+        "matches_source": true
+      },
+      "binary_values": [
+        0,
+        255
+      ],
+      "is_binary": true,
+      "foreground_pixels": 232968,
+      "foreground_percent": 9.95222,
+      "connected_components": 187,
+      "small_components_count": 0,
+      "small_components_ratio": 0.0,
+      "largest_component_pixels": 146664,
+      "largest_component_ratio": 0.62955,
+      "border_foreground_pixels": 1990,
+      "border_contact_ratio": 0.00854,
+      "source_support_ratio": 0.97454,
+      "foreground_bbox": {
+        "x_min": 45,
+        "y_min": 7,
+        "x_max": 2034,
+        "y_max": 1142,
+        "width": 1990,
+        "height": 1136
+      },
+      "skeleton_pixels": 87001,
+      "skeleton_endpoints": 3458,
+      "skeleton_junction_pixels": 49999
+    }
+  ],
+  "important_note": "PASS means raster checks passed; it does not prove semantic correctness of Gemini layer separation or CAD geometry."
+}

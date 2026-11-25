@@ -1,38 +1,4 @@
-
-# Python cache
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environment
 .venv/
-venv/
-env/
-
-# Environment variables and secrets
-.env
-.env.*
-!.env.example
-
-# IDE
-.vscode/
-.idea/
-
-# Temporary files
-*.tmp
-*.log
-*.bak
-
-# Generated CAD files
-output/*
-!output/.gitkeep
-
-# Generated processing data
-data/masks/*
-data/objects/*
-data/geometry/*
-data/annotations/*
-data/checkpoints/*
-
-# Input files
-# Review before committing large source images
+__pycache__/
+.pytest_cache/
+*.py[cod]

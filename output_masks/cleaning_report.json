@@ -1,0 +1,42 @@
+[
+  {
+    "input": "input_layers\\Mask Layer Hijau - Dimensi, Elevasi & Garis Penunjuk (0,18 mm).jpg",
+    "output": "output_masks\\Mask Layer Hijau - Dimensi, Elevasi & Garis Penunjuk (0,18 mm)_clean.png",
+    "width": 2048,
+    "height": 1143,
+    "foreground_pixels": 64541,
+    "foreground_percent": 2.7571
+  },
+  {
+    "input": "input_layers\\Mask Layer Kuning - Elemen Sekunder & Kereta (0,30 - 0,35 mm).jpg",
+    "output": "output_masks\\Mask Layer Kuning - Elemen Sekunder & Kereta (0,30 - 0,35 mm)_clean.png",
+    "width": 2048,
+    "height": 1143,
+    "foreground_pixels": 212616,
+    "foreground_percent": 9.0828
+  },
+  {
+    "input": "input_layers\\Mask Layer Magenta - Arsiran Potongan Tanah (0,10 mm).jpg",
+    "output": "output_masks\\Mask Layer Magenta - Arsiran Potongan Tanah (0,10 mm)_clean.png",
+    "width": 2048,
+    "height": 1143,
+    "foreground_pixels": 21066,
+    "foreground_percent": 0.8999
+  },
+  {
+    "input": "input_layers\\Mask Layer Merah - Garis Sumbu & Grid A-N (0,13 mm).jpg",
+    "output": "output_masks\\Mask Layer Merah - Garis Sumbu & Grid A-N (0,13 mm)_clean.png",
+    "width": 2048,
+    "height": 1143,
+    "foreground_pixels": 26180,
+    "foreground_percent": 1.1184
+  },
+  {
+    "input": "input_layers\\Mask Layer Putih & Cyan - Struktur Utama (0,50 - 0,70 mm).jpg",
+    "output": "output_masks\\Mask Layer Putih & Cyan - Struktur Utama (0,50 - 0,70 mm)_clean.png",
+    "width": 2048,
+    "height": 1143,
+    "foreground_pixels": 232968,
+    "foreground_percent": 9.9522
+  }
+]

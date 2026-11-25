@@ -1,0 +1,16 @@
+# Conservative defaults for architectural raster masks.
+# Keep opening disabled: it can erase thin dimension and structural lines.
+median_blur_ksize: 0
+min_component_area: 2
+closing_kernel: 3
+closing_iterations: 1
+opening_kernel: 0
+opening_iterations: 1
+
+# Directional bridging is disabled initially because it can merge nearby lines.
+bridge_gaps: false
+bridge_kernel_length: 5
+bridge_directions: [0, 45, 90, 135]
+
+# Skeletonization is a separate centerline product, not the cleaned drawing.
+skeletonize: false
